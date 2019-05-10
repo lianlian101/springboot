@@ -1,4 +1,4 @@
-package com.test.springboot.util;
+package com.test.springboot.general.util;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Component;
 
-import com.test.springboot.pojo.RequestParam;
+import com.test.springboot.general.pojo.RequestParam;
 
 /**
  * 2019年4月13日 请求数据封装<只解析json格式和键值对格式的数据>

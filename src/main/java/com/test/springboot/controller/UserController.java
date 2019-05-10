@@ -7,8 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.test.springboot.pojo.RequestParam;
-import com.test.springboot.util.RequestParamsUtil;
+import com.test.springboot.general.pojo.RequestParam;
+import com.test.springboot.general.util.RequestParamsUtil;
 
 @Controller
 @RequestMapping("/user")

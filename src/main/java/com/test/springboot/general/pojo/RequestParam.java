@@ -1,4 +1,4 @@
-package com.test.springboot.pojo;
+package com.test.springboot.general.pojo;
 
 import java.io.Serializable;
 
