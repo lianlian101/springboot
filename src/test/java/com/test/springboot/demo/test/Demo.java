@@ -1,4 +1,4 @@
-package com.test.springboot.demo;
+package com.test.springboot.demo.test;
 
 import java.util.HashMap;
 import java.util.Map;
