@@ -1,6 +1,10 @@
 package com.test.springboot.controller;
 
+import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,4 +38,29 @@ public class UserController {
 	    return datas;
 	}
 	
+    /**
+     * 日期：2019年10月25日
+     * 作者：zhb
+     * 说明：PrintWriter测试
+     * 
+     * @param response
+     * @return
+     */
+    @RequestMapping("/pw")
+    public String rw(int data, HttpServletResponse response){
+        try {
+            response.setContentType("text/html;charset=utf-8");
+            PrintWriter out = response.getWriter();
+            out.println("fail");
+            if(data == 0){
+                out.println("不用跳转");
+                return null;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "/printwriter/index_2";
+    }
+    
+    
 }
