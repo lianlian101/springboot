@@ -62,5 +62,15 @@ public class UserController {
         return "/printwriter/index_2";
     }
     
+    @RequestMapping("/fun")
+    @ResponseBody
+    public String fun(){
+        try {
+            return "success";
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "fail";
+    }
     
 }
