@@ -5,8 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Insert title here</title>
     <script type="text/javascript" src="/static/js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="/static/js/jquery.qrcode.js"></script>
-    <script type="text/javascript" src="/static/js/qrcode.js"></script>
+    <!-- <script type="text/javascript" src="/static/js/jquery.qrcode.js"></script>
+    <script type="text/javascript" src="/static/js/qrcode.js"></script> -->
+    <script type="text/javascript" src="/static/js/jquery.qrcode.min.js"></script>
     <script type="text/javascript">
 
         // 转utf-8
