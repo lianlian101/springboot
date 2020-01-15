@@ -64,6 +64,13 @@
 			<artifactId>mail</artifactId>
 			<version>1.4.7</version>
 		</dependency>
+		
+		<!-- kaptcha验证码 -->
+        <dependency>
+            <groupId>com.github.penggle</groupId>
+            <artifactId>kaptcha</artifactId>
+            <version>2.3.2</version>
+        </dependency>
 
 		<!-- 热启动 -->
 		<!-- <dependency>
@@ -77,7 +84,7 @@
 			<optional>true</optional>
 			<version>1.5.18.RELEASE</version>
 		</dependency> -->
-
+		
 	</dependencies>
 
 	<build>
