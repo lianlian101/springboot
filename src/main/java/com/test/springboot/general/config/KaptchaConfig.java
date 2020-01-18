@@ -1,4 +1,4 @@
-package com.test.springboot.config;
+package com.test.springboot.general.config;
 
 import java.util.Properties;
 
