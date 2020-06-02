@@ -17,7 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MailTest {
+public class SpringMailTest {
     
     @Value("${mail.from}")
     private String from;
