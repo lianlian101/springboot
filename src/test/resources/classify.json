@@ -1,0 +1,92 @@
+[
+    {
+        "name": "公司圈",
+        "list": [
+            {
+                "functionName": "公司圈管理",
+                "fucntionNameMapList": [
+                    {
+                        "fucntionChildNameMapList": [
+                            {
+                                "classificationName": "公司圈",
+                                "function": "公司圈管理",
+                                "functionChild": "修改公司圈"
+                            }
+                        ],
+                        "fucntionChildName": "修改公司圈"
+                    },
+                    {
+                        "fucntionChildNameMapList": [
+                            {
+                                "classificationName": "公司圈",
+                                "function": "公司圈管理",
+                                "functionChild": "查看我的公司圈"
+                            }
+                        ],
+                        "fucntionChildName": "查看我的公司圈"
+                    }
+                ]
+            },
+            {
+                "functionName": "公司管理（公司圈）",
+                "fucntionNameMapList": [
+                    {
+                        "fucntionChildNameMapList": [
+                            {
+                                "classificationName": "公司圈",
+                                "function": "公司管理（公司圈）",
+                                "functionChild": "删除公司（公司圈）"
+                            },
+                            {
+                                "classificationName": "公司圈",
+                                "function": "公司管理（公司圈）",
+                                "functionChild": "删除公司（公司圈）"
+                            }
+                        ],
+                        "fucntionChildName": "删除公司（公司圈）"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "网盘管理",
+        "list": [
+            {
+                "functionName": "公司网盘",
+                "fucntionNameMapList": [
+                    {
+                        "fucntionChildNameMapList": [
+                            {
+                                "classificationName": "网盘管理",
+                                "function": "公司网盘",
+                                "functionChild": "删除公司文件"
+                            }
+                        ],
+                        "fucntionChildName": "删除公司文件"
+                    }
+                ]
+            },
+            {
+                "functionName": "项目网盘",
+                "fucntionNameMapList": [
+                    {
+                        "fucntionChildNameMapList": [
+                            {
+                                "classificationName": "网盘管理",
+                                "function": "项目网盘",
+                                "functionChild": "项目网盘版本管理"
+                            },
+                            {
+                                "classificationName": "网盘管理",
+                                "function": "项目网盘",
+                                "functionChild": "项目网盘版本管理"
+                            }
+                        ],
+                        "fucntionChildName": "项目网盘版本管理"
+                    }
+                ]
+            }
+        ]
+    }
+]
