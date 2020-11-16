@@ -111,6 +111,25 @@
             <version>1.5</version>
         </dependency>
         
+        <!-- 转码 -->
+        <dependency>
+		    <groupId>ws.schild</groupId>
+		    <artifactId>jave-all-deps</artifactId>
+		    <version>2.7.2</version>
+		</dependency>
+		
+		<!-- 图片合视频 -->
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv</artifactId>
+			<version>1.5.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>ffmpeg-platform</artifactId>
+			<version>4.3.1-1.5.4</version>
+		</dependency>
+        
 		<!-- 热启动 -->
 		<!-- <dependency>
 			<groupId>org.springframework</groupId>
